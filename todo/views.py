@@ -6,6 +6,7 @@ from .models import Todo
 from .serializers import TodoSerializer
 
 # Create your views here.
+
 @api_view(['POST'])
 def createtodo(request):
     if request.method=='POST':
